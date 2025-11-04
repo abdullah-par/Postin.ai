@@ -76,7 +76,7 @@ st.markdown(
 # ---------- MAIN APP ----------
 def main():
     st.markdown("## 🪶 LinkedIn Post Generator")
-    st.caption("Generate Codebasics-style posts effortlessly.")
+    st.caption("Generate your posts effortlessly.")
 
     fs = FewShotPosts()
     tags = fs.get_tags()
